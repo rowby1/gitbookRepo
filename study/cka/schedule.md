@@ -75,9 +75,9 @@ Q. Manually schedule the pod on `node01`.
 이미  생성된 pod가  있고, 새로운  내용을  적용시켜야한다.\
 
 
-1. [#yaml](schedule.md#yaml "mention")\
+1. [#yaml-deployment-replicaset](schedule.md#yaml-deployment-replicaset "mention")\
    Pod는 **불변(immutable)**이므로 기존 Pod 삭제 후 **수정된 YAML으로 새로운 Pod 생성**
-2. [#replicaset-deployment](schedule.md#replicaset-deployment "mention")\
+2. [#deployment-replicaset](schedule.md#deployment-replicaset "mention")\
    Pod가 단순한 독립 객체가 아니라 `Deployment`, `ReplicaSet`, `StatefulSet`과 같은 컨트롤러에 의해 관리된다면 해당 **리소스의 YAML 수정이 필요**
 3. [#pod](schedule.md#pod "mention")\
    직접 Pod를 편집하면 적용은 되지만, **Pod 재시작시 변경내용이 사라지는** **임시적인 조치**임
