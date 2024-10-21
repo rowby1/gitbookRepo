@@ -97,18 +97,18 @@ Q. Now schedule the same pod on the `controlplane` node.
 
 
 
-#### 수정된 YAML 파일 적용
+#### 수정된 YAML 파일 적용 (Deployment/ReplicaSet가 없는 경우)
 
 ```bash
 kubectl delete pod <pod-name>
 kubectl apply -f <yaml-file>.yaml
 ```
 
-Pod가 배포된 `Deployment`나 `ReplicaSet`과 같은 컨트롤러가 있다면, Pod가 삭제되자마자 새로운 Pod를 생성하므로 **Deployment 및 ReplicaSet의 YAML을 수정 후 적용해야됨**
-
 [#pod-definition.yaml](schedule.md#pod-definition.yaml "mention") 의 spec:nodeName 부분을 수정
 
-#### ReplicaSet/Deployment가 있는 경우
+#### Deployment/ReplicaSet가 있는 경우
+
+Pod가 배포된 `Deployment`나 `ReplicaSet`과 같은 컨트롤러가 있다면, Pod가 삭제되자마자 새로운 Pod를 생성하므로 **Deployment 및 ReplicaSet의 YAML을 수정 후 적용해야됨**
 
 ```bash
 kubectl apply -f <deployment-file>.yaml
