@@ -24,7 +24,9 @@
 
 * [Java의 정석](study/java/README.md)
   * [1. 변수](study/java/1..md)
-* [토비의 Spring](study/spring.md)
+* [토비의 Spring](study/spring/README.md)
+  * [1. 오브젝트와 의존관계](study/spring/1./README.md)
+    * [Page 2](study/spring/1./page-2.md)
 * [CKA](study/cka/README.md)
   * [Schedule](study/cka/schedule.md)
 * [SQLP](study/sqlp.md)
