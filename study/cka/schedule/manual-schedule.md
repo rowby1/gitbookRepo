@@ -1,4 +1,4 @@
-# Schedule
+# Manual Schedule
 
 ## Schedule의 작동방식
 
@@ -53,7 +53,7 @@ http://$SERVER/api/v1/namespace/default/pods/$PODNAME/binding/
 
 #### Q. What is the status of the created POD?
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 A. Pending
 
@@ -61,7 +61,7 @@ A. Pending
 
 #### Q. Why is the POD in a pending state?
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Node가 할당되지 않음. 즉, `스케줄링`되지 않은 상태\
 A. no scheduler present
@@ -129,7 +129,7 @@ kubectl edit pod <pod-name>
 
 Q. Now schedule the same pod on the `controlplane` node.
 
-[#problem.4](schedule.md#problem.4 "mention")과 상동.
+[#problem.4](manual-schedule.md#problem.4 "mention")과 상동.
 
 
 
