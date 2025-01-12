@@ -53,7 +53,7 @@ http://$SERVER/api/v1/namespace/default/pods/$PODNAME/binding/
 
 #### Q. What is the status of the created POD?
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 A. Pending
 
@@ -61,7 +61,7 @@ A. Pending
 
 #### Q. Why is the POD in a pending state?
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Node가 할당되지 않음. 즉, `스케줄링`되지 않은 상태\
 A. no scheduler present
@@ -81,7 +81,7 @@ A. 이미  생성된 pod가  있고, 새로운  내용을  적용시켜야한다
 
 #### - 수정된 YAML 파일 적용 (Deployment/ReplicaSet가 없는 경우)
 
-Pod는 **불변(immutable)**이므로 기존 Pod 삭제 후 **수정된 YAML으로 새로운 Pod 생성**
+Pod는 **불변(immutable)**&#xC774;므로 기존 Pod 삭제 후 **수정된 YAML으로 새로운 Pod 생성**
 
 pod-definition.yaml 의 spec:nodeName 부분을 수정
 

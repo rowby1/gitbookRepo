@@ -35,7 +35,7 @@ spec:
 
 
 
-컨피그맵의 방식은 **선언형(declarative)**과 **명령형(imperative)**이 있다.
+컨피그맵의 방식은 **선언형(declarative)**&#xACFC; **명령형(imperative)**&#xC774; 있다.
 
 #### 명령형
 
@@ -247,7 +247,7 @@ kubectl get all --selector  env=prod,bu=finance,tier=frontend
 
 Once you fix the issue, create the replicaset from the definition file
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 A.
 
